@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 3.5rem;
+}
+
+.darkHeading {
+  color: #fff;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #333;
+  background-color: transparent;
+  transition: transform 0.1s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #99f7d686;
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
